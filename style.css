@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+HTML,BODY{
+    height: 100%;
+    width: 100%;
+    
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+   background-image: url("https://media.istockphoto.com/id/1468178137/photo/close-up-side-view-of-an-orange-luxury-sports-car.jpg?s=1024x1024&w=is&k=20&c=B3XZINY1KklfP7luQ3-AXQsdwPNEdwn8CE3OnGWNJMs=");
+   background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+#overlay h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #fff;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: "Anurati";
+    letter-spacing: 20px;
+}
+#line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: #fff;
+    width: 30%;
+    height: 2px;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+#nav{
+    padding: 0 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+}
+#nav #links{
+    display: flex;
+    gap: 40px;
+}
+#links a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#nav button{
+    padding: 9px 32px;
+    background-color: rgb(97, 206, 97);
+    border-radius: 5px;
+    font-size: 12px;
+}
+#home{
+    display: flex;
+    align-items: self-end;
+    width: 100%;
+    min-height: 90vh;
+    /* background-color: red; */
+}
+#left{
+    position:  ;
+    width: 40%;
+    min-height: 90vh;
+    padding: 5vw ;
+    /* background-color: rgb(196, 209, 11); */
+}
+#left #text{
+ /* background-color: red; */
+   position: absolute;
+   right: -20px;
+   width: 80%;
+top: 10%;
+}
+#text h1{
+    font-size: 3.2vw;
+    line-height: 1;
+}
+#text p{
+    margin: 2vw 0;
+}
+#text button{
+    padding: 12px 22px;
+     background-color: #E0D4C8 ;
+     color: #75695d;
+     border: none;
+     border-radius: 5px ;
+     font-weight: 600;
+}
+#center{
+    width: 40%;
+    min-height: 90vh;
+background-image: url("https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-position: center;
+background-size: cover;
+}
+#right{
+    display: flex;
+    /* align-items: center;
+     */
+     padding: 5vw;
+    justify-content: space-between;
+    flex-direction: column
+    width: 20%;
+    min-height:inherit;
+    /* background-color: purple; */
+}
+#circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vh;
+    height: 7vh;
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+@media(max-width:500px){
+    #nav #links{
+display: none;
+    }
+}

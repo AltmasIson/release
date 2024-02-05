@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #828282;
+}
+#main #mtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+#mtext h1{
+    user-select: none;
+    white-space: nowrap;
+    font-size: 9vw;
+    font-weight: 100;
+    font-family: "voyage";
+    color: #fff;
+    line-height: 1;
+}
+#mtext h3{
+    user-select: none;
+    white-space: nowrap;
+    font-size: 1vw;
+    font-weight: 100;
+    font-family: "voyage";
+    color: #fff;
+    line-height: 1;
+}
+#left {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#nav {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    padding: 50px 60px;
+    gap: 100px;
+    align-items: center;
+}
+
+#nav h3 {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#nav a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#centerimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    background-image: url("https://images.unsplash.com/photo-1612214070442-3c806a722f0b?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+#centerimg #text {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    top: 110%;
+    color: #fff;
+}
+#text #parts{
+width: 30%;
+/* height: 20px; */
+/* background-color: yellow; */
+}
+#parts h5{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#text #para{
+     width: 70%;
+     color: #fff;
+    /* height: 20px;
+    background-color: green;  */
+    }
+    #para p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+#scrool #line{
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+}
+#scrool{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: -10px;
+    gap: 20px;
+    left: 10%;
+    transform: rotate(10deg);
+    transform: origin(0% 50%);
+}
+#scrool h4{
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+#center {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(4, 69, 18);
+    background-image: url("https://images.unsplash.com/photo-1578320339911-5e7974b2720a?q=80&w=1378&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+#center #card{
+    display: flex;
+    width: 220px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    right: 0%;
+    bottom: 10%;
+}
+#cicons{
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+}
+#cimages{
+    width: 80%;
+    height: 100%;
+    background-color: yellow;
+}
+
+#right {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(181, 187, 14);
+}
